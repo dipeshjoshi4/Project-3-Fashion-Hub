@@ -1,0 +1,193 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Orbitron'; 
+}
+
+body{
+    overflow: hidden;
+}
+
+.navbar-container{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.list-item{
+    margin-right: 60px;
+}
+
+.button-group{
+    margin-left: 250px;
+    display: flex;
+    
+}
+
+.search-icon{
+   
+    padding-top: 7px;
+    padding-right: 6px;
+}
+
+.nav-button{
+    padding: 8px 35px;
+    font-family:sans-serif;
+    border-radius: 12px;
+    font-size:medium;
+    background-color: #fff;
+}
+
+ul .list-item:first-child {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: bold;  
+    
+}
+
+ul .list-item:first-child::first-letter{
+    font-weight: bolder;
+}
+
+
+/* hero section left-side */
+
+.hero-container{
+    display: inline-block;
+}
+
+.square{
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+img[alt~="person-hero-iamge"] {
+   display: inline-block;
+   position: relative;
+   height: 500px;
+   bottom: 540px;
+   left:120px;
+}
+
+.globe{
+    display: inline-block;
+    position: relative;
+    bottom: 540px;
+    width: 60px;
+    left:120px
+}
+
+.star2{
+    display:inline-block;
+    position:relative;
+    left:30px;
+    bottom:40px;
+    
+}
+
+.star{
+    display: inline-block;
+    position: relative;
+    bottom: 480px;
+    left: 680px;
+}
+
+/* hero section right side */
+
+.hero-heading{
+    /* display: inline-block; */
+    position: relative;
+    float: right;
+    bottom: 1025px;
+    left: 100px;
+    margin-top: 50px;
+    font-size: 3.5rem;
+}
+
+.hero-description{
+    position: relative;
+    float: right;
+    font-family: sans-serif;
+    bottom: 850px;
+    left: 800px;
+    width: 600px;
+    font-family: "Segoe UI" - 400;
+    /* text-indent: -3px;
+    letter-spacing: 0; */
+    text-align: center;
+}
+
+.button-email{
+    position: absolute;
+    top:550px;
+    left:900px;
+    height: 30px;
+    width: 150px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 700;
+    color: dimgray;
+    
+}
+
+.button-join{
+    position: absolute;
+    top: 550px;
+    left: 1070px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background-color: black;
+}
+
+.contact-heading{
+    position: absolute;
+    top: 600px;
+    left: 990px;
+    color: dimgray;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    height: 30px;
+    width: 250px;
+}
+
+.icons{
+    position: absolute;
+    letter-spacing: 12px;
+    top: 660px;
+    left: 960px;
+    
+}
+
+img[alt~="facebook-icon"]{
+    width: 30px;
+    height: 30px;
+}
+img[alt~="messenger-icon"]{
+    width: 30px;
+    height: 30px;
+}
+img[alt~="instagram-icon"]{
+    width: 30px;
+    height: 30px;
+}
+img[alt~="whatsapp-icon"]{
+    width: 30px;
+    height: 30px;
+}

@@ -1,6 +1,14 @@
 
 # project-3-Fashion-Hub
 
+## Tech Stack
+
+**Web-development skills:** HTML and CSS.
+
+**Source code editor:** VS Code
+
+
+
 * [link](https://fashion-hub-fsjs.netlify.app)
 
 * this Landing Page That Just make your Fahion brand website looks better.

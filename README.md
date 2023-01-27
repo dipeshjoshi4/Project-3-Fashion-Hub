@@ -7,6 +7,7 @@
 
 **Source code editor:** VS Code
 
+**Version control system**: Git and Github.
 
 
 * [link](https://fashion-hub-fsjs.netlify.app)
